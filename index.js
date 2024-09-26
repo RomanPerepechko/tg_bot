@@ -1,11 +1,5 @@
 require('dotenv').config();
-const {
-  Bot,
-  GrammyError,
-  HttpError,
-  Keyboard,
-  InlineKeyboard,
-} = require('grammy');
+const { Bot, GrammyError, HttpError, InlineKeyboard } = require('grammy');
 const { hydrate } = require('@grammyjs/hydrate');
 
 const bot = new Bot(process.env.BOT_API_KEY);
